@@ -1,0 +1,51 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="surveyform.css">
+	
+    <p>Created by: <a href="https://codepen.io/ncaxicane/">See Neo profile on codepen</a></p>
+    <p id="description">In this project we will design a basic survey form using html and some css</p>
+    
+    <!-- <title id="title"> Survey form </title> -->
+    
+    <h1 id="title">SURVEY FORM</h1>
+</head>
+<body>
+<form id="survey-form" action="Submit answers" method="GET"> 
+	<label for="name" id="name-label">Name</label> 
+	<input id="name" type="text" name="fname" placeholder="Your first name" required><br>
+	<label for="email" id="email-label">Email</label>
+    <input id="email" type="email" name="Email" placeholder="example@mail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><br>
+  
+  <label for="number" id="number-label">Number</label>
+	<input id="number" type="number" name="quantity" min="1" max="9"><br>
+	<label for="Gender">Gender</label>
+	<select id="dropdown">
+		<option value="male">Male</option>
+		<option value="Female">Female</option>
+		<option value="Neutral">Others</option>
+	</select> 
+	<br>
+	<p>PERSONALITY</p>
+	<label for="Loving"> <input id="Loving" type="radio" name="personality" value="Loving">Loving </label>
+	<label for="Generous"><input id="Generous" type="radio" name="personality" value="Generous">Generous</label>
+	<label for="Warm"> <input id="Warm" type="radio" name="personality" value="Warm" >Warm</label>
+	<label for="Shy"> <input id="Shy" type="radio" name="personality" value="Shy" > Shy </label>
+	
+	<p>HOBBIES</p>
+	<label for="adventurous"><input id="adventurous" type="checkbox" name="hobbies" value="adventurous"> adventurous</label>
+	<label for="home-body"><input id="home-body" type="checkbox" name="hobbies" value="home-body"> home-body</label>
+	<label for="daredevil"><input id="daredevil" type="checkbox" name="hobbies" value="daredevil"> daredevil</label>
+	<label for="party-Animal"><input id="party-Animal" type="checkbox" name="hobbies" value="party-Animal">party-Animal</label>
+		<label for="Geekie"><input id="Geekie" type="checkbox" name="hobbies" value="Geekie"> Geekie </label>
+		<br>
+		<textarea rows="6" cols="6" placeholder="give additional information about yourself"></textarea>
+		<br>
+		<button id="submit" type="submit">Click to submit your form</button>
+</form>
+
+</body>
+</html>
