@@ -1,0 +1,146 @@
+
+body {
+   
+    align-content: center;
+        background-color:cornsilk;
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+        font-family: sans-serif;
+}
+
+
+p{
+    font-weight: 200;
+    color: rgb(209, 68, 32);
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: normal;
+}
+#title { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+#description {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    color: rgba(12, 44, 189, 0);
+}
+
+#survey-form{
+
+	align-items: center;
+	margin-left: 0;
+	margin-right: 0;
+	
+}
+
+#name {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	 
+}
+#email{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	
+}
+#number{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	
+}
+
+#dropdown{
+    font-family: sans-serif;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid orange;
+    border-radius: 1px;
+   
+}
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid orange;
+    border-radius: 2px;
+}
+input[type=number] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid orange;
+    border-radius: 2px;
+}
+input[type=email] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid orange;
+    border-radius: 2px;
+}
+input[type=checkbox] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+input[type=radio] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid orange;
+    border-radius: 1px;
+}
+textarea {
+    width: 30%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #356;
+    border-radius: 4px;
+    background-color:none;
+    resize: none;
+}
+#submit{
+    background-color: forestgreen;
+    font-size : 20px;
+    width: 20%; 
+    height: 20px;
+}
+
+#description {
+  font-size: bold;
+}
+
+#name-label{
+  font-style: normal;
+}
+#email-label{
+  font-style: normal;
+}
+#number-label{
+  font-style: normal;
+}
